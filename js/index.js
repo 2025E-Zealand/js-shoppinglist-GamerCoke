@@ -66,3 +66,8 @@ function changeOrAddClass(id, classname){
 function deleteLi(id){
     document.getElementById(id).remove();
 }
+
+function changeLiText(id, text){
+    let element = document.getElementById(id);
+    element.textContent = text;
+}
