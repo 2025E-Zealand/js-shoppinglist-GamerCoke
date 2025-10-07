@@ -71,3 +71,9 @@ function changeLiText(id, text){
     let element = document.getElementById(id);
     element.textContent = text;
 }
+
+function listLength(list){
+    let listElement = document.getElementById(list);
+    let amount = listElement.getElementsByTagName("li").length;
+    console.log(amount);
+}
